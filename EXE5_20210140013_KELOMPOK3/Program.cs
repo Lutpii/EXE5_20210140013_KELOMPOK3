@@ -50,6 +50,18 @@ namespace EXE5_20210140013_KELOMPOK3
             if (adi == null)
                 roki = null;
         }
+
+        public void display()
+        {
+            if (adi == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            Node display;
+            for (display = adi; display != null; display = display.next)
+                Console.WriteLine(display.name);
+        }
     }
     internal class Program
     {
