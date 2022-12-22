@@ -14,7 +14,12 @@ namespace EXE5_20210140013_KELOMPOK3
 
     class queue
     {
-
+        Node adi, roki;
+        public queue()
+        {
+            adi = null;
+            roki = null;
+        }
     }
     internal class Program
     {
