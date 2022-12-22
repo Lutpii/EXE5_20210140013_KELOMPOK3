@@ -63,10 +63,12 @@ namespace EXE5_20210140013_KELOMPOK3
                 Console.WriteLine(display.name);
         }
     }
-    internal class Program
+
+    class Program
     {
         static void Main(string[] args)
         {
+        
         }
     }
 }
