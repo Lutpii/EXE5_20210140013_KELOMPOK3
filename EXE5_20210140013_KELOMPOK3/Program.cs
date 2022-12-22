@@ -38,6 +38,18 @@ namespace EXE5_20210140013_KELOMPOK3
             roki.next = newnode;
             roki = newnode;
         }
+
+        public void delete()
+        {
+            if (adi == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            adi = adi.next;
+            if (adi == null)
+                roki = null;
+        }
     }
     internal class Program
     {
