@@ -20,6 +20,24 @@ namespace EXE5_20210140013_KELOMPOK3
             adi = null;
             roki = null;
         }
+
+        public void insert()
+        {
+            string nm;
+            Node newnode = new Node();
+            Console.WriteLine("Masukan Element: ");
+            nm = Console.ReadLine();
+            newnode.name = nm;
+            newnode.next = null;
+            if (adi == null)
+            {
+                adi = newnode;
+                roki = newnode;
+                return;
+            }
+            roki.next = newnode;
+            roki = newnode;
+        }
     }
     internal class Program
     {
