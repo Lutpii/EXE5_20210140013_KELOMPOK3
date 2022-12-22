@@ -68,7 +68,8 @@ namespace EXE5_20210140013_KELOMPOK3
     {
         static void Main(string[] args)
         {
-        
+            queue q = new queue();
+            char ch;
         }
     }
 }
